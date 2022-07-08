@@ -38,8 +38,8 @@ body {
 
 .instagram-continue {
     display: flex;
-    align-items: center; /* horizontal */
-    justify-content: space-around; /* vertical */
+    align-items: center; 
+    justify-content: space-around; 
     flex-direction: column;
     width: 50%;
     min-height: 34rem;
@@ -56,7 +56,7 @@ body {
     border: 1px solid lightgray;
 }
 
-.group:nth-child(1) {
+.group:nth-child(1) {  /*pegar primeiro elemento com essa class  */
     min-height: 19rem;
 }
 
@@ -69,7 +69,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    overflow: hidden;
+    overflow: hidden; /*Esconde tudo que ultrapassa os limites da div, porque a div arredondou */
 }
 
 .profile-photo img {
@@ -116,7 +116,7 @@ body {
 .app-download {
     height: 3rem;
     width: 10rem;
-    background-size: cover;
+    background-size: cover; /*imagem fica 100% da div pai ?*/
 }
 
 .app-download:nth-child(1) {
