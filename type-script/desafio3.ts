@@ -43,6 +43,7 @@ botaoLimpar.addEventListener('click', () => { // Percebam que aqui o typescript 
     limparSaldo();
 });
 
+
 /**
     <h4>Valor a ser adicionado: <input id="soma"> </h4>
     <button id="atualizar-saldo">Atualizar saldo</button>
